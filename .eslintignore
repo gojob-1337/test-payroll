@@ -1,0 +1,6 @@
+/dist/**
+/src/migrations/**
+*.d.ts
+**/__generated__/**
+**/global-types.ts
+*.types.ts

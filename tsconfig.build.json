@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noErrorTruncation": true,
+    "incremental": false,
+    "skipDefaultLibCheck": true,
+    "isolatedModules": true,
+  },
+  "exclude": ["node_modules", "dist", "**/*spec.ts", "fixtures"]
+}
